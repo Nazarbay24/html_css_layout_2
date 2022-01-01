@@ -1,4 +1,4 @@
-# html_css_layout_2
+# html_css_layout_2 2018
 
 мои первые шаги в web, дизайн + верстка.
 
