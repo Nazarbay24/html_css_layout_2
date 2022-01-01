@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Гостиница "Уют"</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/png" href="img/log22.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+</head>
+
+<body>
+	<div id="top"></div>
+	
+	<header class="header" id="header">
+
+		<div id="menu_line"></div>
+		
+		<div class="container">
+
+			<div class="menu">	
+				<p class="adress">г. Алматы, ул.Гоголя, 127/1, уг.пр.Сейфуллина</p>
+			<p class="tel">+7 (727) 279-51-11</p>
+			
+			<div class="lang-block">
+				<a href="#"><img src="img/ru.png"></a>
+				<a href="#"><img src="img/kz.png"></a>
+				<a href="#"><img src="img/uk.png"></a>
+				<a href="#"><img src="img/ch.png"></a>
+			</div>
+
+				<nav>
+					<ul class="main-menu">
+						<li><a href="#">о нас</a>
+							<ul>
+								<li><a href="#">Условия бронирования</a></li>
+								<li><a href="#">Правила отеля</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Наша история</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">размещение</a>
+							<ul id="razmeshenie">
+								<li><a href="#">Стандарт</a></li>
+								<li><a href="#">Комфорт Де-люкс</a></li>
+								<li><a href="#">Полулюкс</a></li>
+								<li><a href="#">Люкс 2-х комнатный</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">услуги</a>
+							<ul id="uslugi">
+								<li><a href="#">Конференц-зал</a></li>
+								<li><a href="#">Фитнес-центр</a></li>
+								<li><a href="#">Сауна</a></li>
+								<li><a href="#">Трансфер</a></li>
+								<li><a href="#">Химчистка</a></li>
+							</ul>
+						</li>
+						<li><a href="#">прайс-лист</a></li>
+						<li><a href="#">акции</a></li>
+						<li><a href="#">контакты</a></li>					
+					</ul>
+				</nav>
+				<img src="img/log.png">
+			</div>
+
+
+
+			<div class="big-text" onmousedown="return false" onselectstart="return false">
+				<p>Легендарный гостиничный комплекс <span>Уют</span></p>
+				<p>________________</p>
+				<p>Окунитесь в мир комфорта и уюта</p>
+			</div>
+
+			<div class="bron">
+				<form>
+				<input id="bron1" placeholder="Дата заезда" type="text" 
+  				onfocus="this.type='date'" onblur="if(this.value == ''){this.type='text'}" />
+				<input id="bron1" placeholder="Дата выезда" type="text" 
+  				onfocus="this.type='date'" onblur="if(this.value == ''){this.type='text'}" />
+				<select name="guests">
+					<option value="guests">Гости</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+				<a href="#" id="bron4">Забронировать</a>
+				</form>
+			</div>
+
+		</div>
+	</header>
+
+	<div class="page_2">
+		<div class="container">
+			<img src="img/page2.png">
+			
+			<div class="page_2_text">
+			<p>Гостиница Уют</p>
+			<br><br><br>
+			<p>Алматы – удивительный город, жемчужина древней и современной Республики Казахстан, привлекающая своим сиянием людей со всего мира.
+			<br><br>
+			Приветствуем вас на официальном сайте гостиницы «Уют - одной из лучших в Южной столице Казахстана! У нас вы сможете разместитьсякомфортно, уютно и действительно недорого. 
+			<br><br>
+			Гостиничный комплекс «Уют» - это современный эталон восточного гостеприимства в Алматы.</p>
+			</div>
+
+			<div class="page2_line1"></div>
+			<div class="page2_line2"></div>
+			<div class="page2_line3"></div>
+		</div>
+	</div>
+
+	<div class="page_3">
+		<div class="container">
+			<div class="standart">
+				<img src="img/standart.jpg">
+				<p>Стандарт</p>
+				<p>Оформленный в лаконичном европейском стиле, номер стандарт может быть оборудован удобной двуспальной или двумя односпальными кроватями. Продуманная эргономика позволяет визуально разделить общее пространство на зону отдыха и рабочее пространство.</p>
+
+				<div class="standart-line"></div>
+
+				<p class="price1">Одноместный - <span>22000</span> тг.<br>Двухместный - <span>26000</span> тг.</p>
+
+				<a href="#">Забронировать</a>
+			</div>
+
+			<div class="deluxe">
+				<img src="img/deluxe.jpg">
+				<p>Комфорт де-дюкс</p>
+				<p>Номер «Комфорт де-люкс» - это просторная комната, одинаково удобная для размещения одного или двух человек. Также номера этой категории, отличающиеся просторной жилой зоной и домашним комфортом, отлично подходят для семейного отдыха.</p>
+
+				<div class="standart-line"></div>
+
+				<p class="price1">Одноместный - <span>25000</span> тг.<br>Двухместный - <span>29000</span> тг.</p>
+
+				<a href="#">Забронировать</a>
+			</div>
+
+			<div class="poluluxe">
+				<img src="img/poluluxe.jpg">
+				<p>Полулюкс</p>
+				<p>Этот тип номеров имеет разную вместимость: здесь могут с комфортом разместиться 1-2 человека, включая детей. Все наши полулюксы оформлены в сдержанном и лаконичном европейском стиле: здесь можно не только отдыхать, но и плодотворно работать.</p>
+
+				<div class="standart-line"></div>
+
+				<p class="price1">Одноместный - <span>29000</span> тг.<br>Двухместный - <span>33000</span> тг.</p>
+
+				<a href="#">Забронировать</a>
+			</div>
+
+			<div class="luxe2">
+				<img src="img/2luxe.jpg">
+				<p>Люкс 2х-комнатный</p>
+				<p>Как и в самых дорогих гостиницах мира, номер люкс – это двухкомнатные апартаменты, состоящие из спальни и гостиной. Оформленный в современном европейском стиле и обставленный всей необходимой мебелью, наш люкс станет для вас гостеприимным домом.</p>
+
+				<div class="standart-line"></div>
+
+				<p class="price1">Одноместный - <span>32000</span> тг.<br>Двухместный - <span>36000</span> тг.</p>
+
+				<a href="#">Забронировать</a>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="page_4">
+		<div class="container">
+			<div class="plate">
+				<img src="img/plate.png">
+				<p><span>Завтрак</span><br><br>
+				Мы предлагаем полноценные вкусные и разнообразные завтраки в формате шведского стола</p>
+			</div>
+
+			<div class="wifi">
+				<img src="img/wifi.png">
+				<p><span>Бесплатный Wi-Fi</span><br><br>
+				Мы предоставляем нашим гостям бесплатный высокоскоростной Wi-Fi на всей территории отеля</p>
+			</div>
+
+			<div class="tv">
+				<img src="img/tv.png">
+				<p><span>Спутниковое ТВ</span><br><br>
+				Телевизор подключенный к спутникой ТВ-сети.<br>
+				+<br>
+				DVD - проигрыватель</p>
+			</div>
+
+			<div class="sauna">
+				<img src="img/sauna.png">
+				<p><span>Сауна</span><br><br>
+				Гости отеля могут в любой момент в интервале с 8 до 22 часов воспользоваться нашей собственной комфортабельной</p>
+			</div>
+
+			<div class="fitness">
+				<img src="img/fitness.png">
+				<p><span>Фитнес - клуб</span><br><br>
+				Мы приглашаем вас в современный всесторонне оборудованный фитнес-клуб, работающий при нашей гостинице</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="page_5">
+		<p id="ga">Галерея</p>
+		<div class="container" id="pg5">
+			<div class="ga1">
+				<a href="#">
+					<img src="img/ga1.jpg">
+					<p>Ресторан</p>
+				</a>
+			</div>
+			<div class="ga2">
+				<a href="#">
+					<img src="img/ga2.jpg">
+				</a>
+				<a href="#">
+					<p>Конференц зал</p>
+				</a>
+			</div>
+			<div class="ga11"></div>
+			<div class="ga3">
+				<a href="#">
+					<img src="img/ga3.jpg">
+					<p>Сауна</p>
+				</a>
+			</div>
+			<div class="ga4">
+				<a href="#">
+					<img src="img/ga4.jpg">
+					<p>Фитнес - клуб</p>
+				</a>	
+			</div>
+
+
+			<div class="pg5_line1"></div>
+			<div class="pg5_line2"></div>
+			<div class="pg5_line3"></div>
+			<div class="pg5_line4"></div>
+			
+		</div>
+
+		
+	</div>
+
+	<div class="page_6">
+		<div class="container" id="pg6_con">
+			<p>Нас рекомендуют</p>
+			<div><a href="#"><img src="img/rc1.png"></a></div>
+			<div><a href="#"><img src="img/rc2.png"></a></div>
+			<div><a href="#"><img src="img/rc3.jpg"></a></div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container" id="footer_con">
+			<div class="foot_1">
+				<img src="img/log.png">
+				<img src="img/c.png">
+				<p>Гостиничный комплекс «УЮТ»<br>
+				официальный сайт<br>
+				2018</p>
+			</div>
+
+			<div class="foot_2">
+				<ul class="foot_menu">
+					<li><a href="#">О НАС</a></li>
+					<li><a href="#">РАЗМЕЩЕНИЕ</a></li>
+					<li><a href="#">ПРАЙС-ЛИСТ</a></li>
+					<li><a href="#">УСЛУГИ</a></li>
+					<li><a href="#">АКЦИИ</a></li>
+					<li><a href="#">КАРТА САЙТА</a></li>
+				</ul>
+			</div>
+
+			<div class="foot_3">
+				<p>+7 (727) 279-51-11<br>
+				   +7 (727) 279-55-11<br>
+				   +7 (777) 218-31-32</p>
+				   	<br>
+				<p>Гостиничный комплекс «Уют»<br>
+				   г.Алматы, ул.Гоголя, 127/1,<br>
+				   уг.пр.Сейфуллина</p>
+			</div>
+
+			<div class="foot_4">
+				<p>Мы в соц. сетях:</p>
+				<a href="#"><img class="soc" src="img/instagram.png"></a>
+				<a href="#"><img class="soc" src="img/facebook.png"></a>
+				<a href="#"><img class="soc" src="img/vk.png"></a>
+
+				<p>Мы принимаем оплату:</p>
+				<img id="visa" src="img/visa.png">
+				<img id="mastercard" src="img/mastercard.png">
+				<img id="jcb" src="img/jcb.png">
+			</div>
+		</div>	
+
+		<div class="foot_line1"></div>
+		<div class="foot_line2"></div>
+		<div class="foot_line3"></div>
+</body>
+</html>
